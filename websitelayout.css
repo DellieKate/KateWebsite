@@ -1,14 +1,53 @@
 body {
-    background-color: rgb(251, 249, 250);
+    background-color: #efe5ed;
     background-image: url("");
   }
 
-  nav {
+.stet {
+    position: relative;
+    position: center;
+    width: 300px;
+    border: 3px solid #fc94cf;
+    padding: 0.5%;
+    margin-top: 10%;
+    margin-left: 10%;
+}  
+
+/* img {
+  position: relative;
+  position: center;
+  width: 300px;
+  border: 3px solid #fc94cf;
+  padding: 0.5%;
+  margin-top: 10%;
+  margin-left: 10%;
+ } */
+  /* Style the navbar */
+nav {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: #f5f7fa;
+  }
+
+/* Style the navbar links */
+nav {
     float: right;
-    width: 250px;
+    display: block;
+    color: #607ef9;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
   }
 
 
+/* div {
+    width: 300px;
+    margin: center;
+} */
+
+  
+/* Icon - contacts bar */
 .icon-bar {
     width: 100%; /* Full-width */
     background-color: #555; /* Dark-grey background */
