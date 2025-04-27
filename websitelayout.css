@@ -57,7 +57,7 @@ section section-text {
 
 section banner {
   border: 1px solid green;
-  margin-top: 10hv;
+  margin-top: 10vh;
   display: block;
 }
 
@@ -73,11 +73,17 @@ section banner {
       display: inline-block;
       height: max-content;
       width: max-content;
-      padding: 10%;
+      padding: 10px;
       justify-items: space-around;
       align-items: center;
-
     }
+}
+
+skills-row {
+  border: 1px solid orange;
+  display: block;
+  padding: 10px;
+  text-align: center;
 }
 
 /* Icon - contacts bar */
@@ -109,20 +115,12 @@ sticky-links copyright {
   width: 100%;
   text-align: center;
   padding: 5px;
+  font-size: small;
 }
 
 .active {
   background-color: rgb 52, 114, 2087; 
 }
-
-  
-  /* design footer */
-  footer {
-    text-align: center;
-    font-size: small;
-    
-
-  }
 
 
   
