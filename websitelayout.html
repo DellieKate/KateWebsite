@@ -16,46 +16,34 @@
         <a href="#contact">contact</a>   
     </nav>
       
-    <section id="home" style="border: 1px solid blue; margin:auto; width: 80%; height: 85vh">
-        <div style="border: 1px solid red; display: inline-flex; margin-top: 15vh; width: 100%;">
-            <div style="border: 1px solid green; ">
+    <section id="home">
+        <container>
+            <image-container>
                 <img style="width: 400px" src="https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/201504/big-data-medicine-model_0.jpg?itok=SS8arw8X" alt="stet">
-            </div>
-            <div style="border: 1px solid orange; margin-left: 5%;">
-                <p style="font-size: xxx-large; font-weight: 900;">Kate Mendoza</p>
+            </image-container>
+            <section-text>
+                <p class="section-heading">Kate Mendoza</p>
                 <p style="font-size: larger; font-weight: 250; "> Web developer. Physician. Wife. Mother. Adventurer. </p>
-            <div>
-        </div>
+            </section-text>
+        </container>
+    </section>
+  
+    <section id="about">
+        <container>
+            <image-container>
+                <img src="https://scontent.fmel11-1.fna.fbcdn.net/v/t39.30808-6/472839636_10161044233540875_3016602805242125931_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=sbPQkS8-eN8Q7kNvwF1uqqx&_nc_oc=Adk_LwGnZoV21_w6IN3nMmJBV1BAt_b7Q8HtszhHbF0MD08xpew58NC9Lg-34f7ady0&_nc_zt=23&_nc_ht=scontent.fmel11-1.fna&_nc_gid=PAF5NQf3FWszDwl8gCfAAw&oh=00_AfFOADdBf11KqmTmlZWThIgVzS4TFX_H_UL6ARAF134_Zg&oe=6810EA29" alt="kateprofile" width="400" height="400">
+            </image-container>
+            <section-text>
+                <p class="section-heading">Kate Mendoza</p>
+                <p>"I’m Kate Mendoza—a physician in my home country, and currently working as a phlebotomist here in Australia. I recently ventured into web development as a way to challenge myself and explore something new. It’s been a fascinating journey so far, and I’m excited to apply what I’ve learned both in the medical field and beyond."</p>
+                <img src="https://user-images.githubusercontent.com/102985224/211582827-8fd748d6-9181-4c5f-a620-76168b861a4d.gif" alt="Computer girl" style="width: 150px; height: 150px; " >
+            </section-text>
+        </container>
     </section>
 
-    <icon class="icon-bar">
-        
-        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   
-            <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-            <a href="#" class="github"><i class="fa fa-github"></i></a>
-            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-            <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-            <a href="#" class="email"><i class="fa fa-yahoo"></i></a>  
-        </icon>
-   
-   
-
-   
-  
     <h1 style="font-size: xx-large; font-weight: bold;"> Kate Mendoza</h1>
-        <section id="about">
-            <img src="https://scontent.fmel11-1.fna.fbcdn.net/v/t39.30808-6/472839636_10161044233540875_3016602805242125931_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=sbPQkS8-eN8Q7kNvwF1uqqx&_nc_oc=Adk_LwGnZoV21_w6IN3nMmJBV1BAt_b7Q8HtszhHbF0MD08xpew58NC9Lg-34f7ady0&_nc_zt=23&_nc_ht=scontent.fmel11-1.fna&_nc_gid=PAF5NQf3FWszDwl8gCfAAw&oh=00_AfFOADdBf11KqmTmlZWThIgVzS4TFX_H_UL6ARAF134_Zg&oe=6810EA29" alt="kateprofile" width="400" height="400">
-            <p> "I’m Kate Mendoza—a physician in my home country, and currently working as a phlebotomist here in Australia. I recently ventured into web development as a way to challenge myself and explore something new. It’s been a fascinating journey so far, and I’m excited to apply what I’ve learned both in the medical field and beyond."  </p>
-            <img src="https://user-images.githubusercontent.com/102985224/211582827-8fd748d6-9181-4c5f-a620-76168b861a4d.gif" alt="Computer girl" style="width: 150px; height: 150px; " >
-
-        </section>
-
-   
-    <h1 style="font-size: xx-large; font-weight: bold;"> Kate Mendoza</h1>
-        <h2 style="font-size: x-large; text-decoration: underline;"> Skills </h2>
-        <section id="skills">
+    <h2 style="font-size: x-large; text-decoration: underline;"> Skills </h2>
+    <section id="skills">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
             <div class="container-icons">
                 <div class=box-icon> 
@@ -122,8 +110,20 @@
         <a href="#" class="email"><i class="fa fa-yahoo"></i></a>  
     </icon>
 
-
-<footer> &copy; Kate Mendoza 2025 </footer>
+    <sticky-links>
+        <links>
+            <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            <a href="#" class="github"><i class="fa fa-github"></i></a>
+            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+            <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+            <a href="#" class="email"><i class="fa fa-yahoo"></i></a>  
+        </links>
+        <copyright>
+            &copy; Kate Mendoza 2025
+        </copyright>
+    </sticky-links>
 
 </body>
 

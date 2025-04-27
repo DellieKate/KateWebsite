@@ -34,7 +34,29 @@ body {
 
 .content {
   padding: 16px;
+}
 
+section {
+  border: 1px solid blue; 
+  margin:auto; 
+  width: 80%; 
+  height: 85vh
+}
+
+section container {
+  border: 1px solid red; 
+  display: inline-flex; 
+  margin-top: 20vh; 
+  width: 100%;
+}
+
+section section-text {
+  border: 1px solid orange; 
+  margin-left: 5%;
+}
+
+.section-heading {
+  font-size: xxx-large; font-weight: 900;
 }
 
 
@@ -53,13 +75,15 @@ body {
 }
 
 /* Icon - contacts bar */
-.icon-bar {
+sticky-links {
   width: 100%; 
-  background-color: #555; 
-  overflow: auto; 
+  background-color:#70aafc; 
+  position: fixed;
+  left: 0;
+  bottom: 0;
 }
 
-.icon-bar a {
+sticky-links a {
   float: left; 
   text-align: center; 
   width: 20%; 
@@ -69,8 +93,16 @@ body {
   font-size: 12; 
 }
 
-.icon-bar a:hover {
+sticky-links a:hover {
   background-color: #4ec1ff; 
+}
+
+sticky-links copyright {
+  background: white;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 5px;
 }
 
 .active {
