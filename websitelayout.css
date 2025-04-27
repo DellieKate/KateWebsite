@@ -1,5 +1,5 @@
 body {
-    background-color: #efe5ed;
+    background-color: rgb(249, 251, 252);
     background-image: url("");
   }
 
@@ -7,71 +7,78 @@ body {
     position: relative;
     position: center;
     width: 300px;
-    border: 3px solid #fc94cf;
+    border: 3px solid #FF9EFD;
     padding: 0.5%;
     margin-top: 10%;
     margin-left: 10%;
 }  
 
-/* img {
-  position: relative;
-  position: center;
-  width: 300px;
-  border: 3px solid #fc94cf;
-  padding: 0.5%;
-  margin-top: 10%;
-  margin-left: 10%;
- } */
-  /* Style the navbar */
-nav {
-    position: sticky;
-    top: 0;
-    overflow: hidden;
-    background-color: #f5f7fa;
-  }
 
 /* Style the navbar links */
-nav {
-    float: right;
-    display: block;
-    color: #607ef9;
-    text-align: center;
-    padding: 14px;
-    text-decoration: none;
-  }
+.topnav {
+  border: 1px solid rgb(249, 165, 165);
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  background-color: rgb(52, 114, 208);
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.content {
+  padding: 16px;
+
+}
 
 
-/* div {
-    width: 300px;
-    margin: center;
-} */
+/* design skills icon */
+#skills {
+    .box-icon { 
+      border-style: dotted;
+      display: inline-block;
+      height: max-content;
+      width: max-content;
+      padding: 10%;
+      justify-items: space-around;
+      align-items: center;
 
-  
+    }
+}
+
 /* Icon - contacts bar */
 .icon-bar {
-    width: 100%; /* Full-width */
-    background-color: #555; /* Dark-grey background */
-    overflow: auto; /* Overflow due to float */
-  }
+  width: 100%; 
+  background-color: #555; 
+  overflow: auto; 
+}
+
+.icon-bar a {
+  float: left; 
+  text-align: center; 
+  width: 20%; 
+  padding: 12px 0; 
+  transition: all 0.3s ease; 
+  color: rgb(52, 114, 208); 
+  font-size: 12; 
+}
+
+.icon-bar a:hover {
+  background-color: #4ec1ff; 
+}
+
+.active {
+  background-color: rgb 52, 114, 2087; 
+}
+
   
-  .icon-bar a {
-    float: left; /* Float links side by side */
-    text-align: center; /* Center-align text */
-    width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
-    padding: 12px 0; /* Some top and bottom padding */
-    transition: all 0.3s ease; /* Add transition for hover effects */
-    color: rgb(52, 114, 208); /* White text color */
-    font-size: 12; /* Increased font size */
-  }
-  
-  .icon-bar a:hover {
-    background-color: #4ec1ff; /* Add a hover color */
-  }
-  
-  .active {
-    background-color: rgb 52, 114, 2087; /* Add an active/current color */
-  }
-  
+  /* design footer */
   footer {
     text-align: center;
     font-size: small;
