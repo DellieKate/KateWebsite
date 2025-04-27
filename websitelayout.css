@@ -55,6 +55,12 @@ section section-text {
   margin-left: 5%;
 }
 
+section banner {
+  border: 1px solid green;
+  margin-top: 10hv;
+  display: block;
+}
+
 .section-heading {
   font-size: xxx-large; font-weight: 900;
 }
