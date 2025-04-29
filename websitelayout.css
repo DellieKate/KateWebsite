@@ -1,8 +1,9 @@
 body {
-    background-color: rgb(249, 251, 252);
+    background-color: rgba(251, 3, 197, 0);
     background-image: url("");
   }
 
+/*HOME PAGE*/
 .stet {
     position: relative;
     position: center;
@@ -12,9 +13,11 @@ body {
     margin-top: 10%;
     margin-left: 10%;
 }  
+p {
+  text-align: justify;
+}
 
-
-/* Style the navbar links */
+/*NAV BAR LINKS */
 .topnav {
   border: 1px solid rgb(249, 165, 165);
   position: sticky;
@@ -32,10 +35,7 @@ body {
   text-decoration: none;
 }
 
-.content {
-  padding: 16px;
-}
-
+/*ABOUT PAGE*/
 section {
   border: 1px solid blue; 
   margin:auto; 
@@ -65,33 +65,94 @@ section banner {
   font-size: xxx-large; font-weight: 900;
 }
 
+h2 {
+  font-size: xx-large; font-weight: 900;
+}
 
-/* design skills icon */
+.girl {
+  width: 150px;
+  height: 150px; 
+  float: right;
+}
+
+/*SKILLS PAGE*/
+
 #skills {
-    .box-icon { 
+  .container-icons {
+    border: 1px solid orange;
+    padding: 5px;
+    text-align: center;
+  }
+   .box-icon { 
       border-style: dotted;
       display: inline-block;
-      height: max-content;
-      width: max-content;
-      padding: 10px;
-      justify-items: space-around;
-      align-items: center;
+      padding: 8%;
+      height: 60px; 
+      width: 60px;
     }
 }
 
-skills-row {
-  border: 1px solid orange;
+/*PROJECTS PAGE*/
+
+h3  {
   display: block;
-  padding: 10px;
-  text-align: center;
+  margin: 3%;
+  font-weight: bolder;
 }
 
-/* Icon - contacts bar */
+.project {
+  display: inline-block;
+  margin-left: 10%;
+    }
+
+de {
+      text-align: justify;
+      margin-left: 100px;
+    }
+    
+/*CONTACTS PAGE*/
+.contact {
+  display: wrap;
+  width: 200px;
+  height: 150px;
+  float: right;
+  margin-top: 10vh;
+  padding-right: 10%;
+}
+
+form {
+  display: grid;
+  padding: 5%;
+}
+
+label {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+input {
+  text-align: justify;
+  padding: 1%;
+  }
+
+.submit { 
+  display:inline-flex;
+  font-weight: 800px; 
+  background-color: rgb(138, 223, 249);
+}
+
+.submit:hover { 
+  font-weight: bolder; 
+  background-color: rgb(18, 168, 214); 
+}
+
+
+/*CONTACTS AND COPYRIGHT BAR*/
 sticky-links {
   width: 100%; 
   background-color:#70aafc; 
   position: fixed;
-  left: 0;
+  right: 0;
   bottom: 0;
 }
 
@@ -109,7 +170,7 @@ sticky-links a:hover {
   background-color: #4ec1ff; 
 }
 
-sticky-links copyright {
+copyright {
   background: white;
   display: inline-block;
   width: 100%;
