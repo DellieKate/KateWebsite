@@ -9,17 +9,17 @@
 </head>
 <body>
     <nav class="topnav">
-        <a class="active" href="#home">home</a>
+        <a class="a"><a class="active" href="#home">home</a>
         <a href="#about">about</a>
         <a href="#skills">skills</a>
         <a href="#projects">projects</a>
-        <a href="#contact">contact</a>   
+        <a href="#contact">contact</a>
     </nav>
       
     <section id="home">
         <container>
             <image-container>
-                <img style="width: 400px" src="https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/201504/big-data-medicine-model_0.jpg?itok=SS8arw8X" alt="stet">
+                <img width="400px" src="https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/201504/big-data-medicine-model_0.jpg?itok=SS8arw8X" alt="stet">
             </image-container>
             <section-text>
                 <p class="section-heading">Kate Mendoza</p>
@@ -56,15 +56,17 @@
                         <img src="https://devicon-website.vercel.app/api/css3/original.svg"></img>CSS3</div>
                     <div class=box-icon> 
                         <img src="https://devicon-website.vercel.app/api/github/original.svg"></img>GitHub</div>
-                    <div class=box-icon> 
-                        <img src="https://devicon-website.vercel.app/api/python/original.svg"></img>Python</div>
-                    <div class=box-icon> 
-                        <img src="https://devicon-website.vercel.app/api/javascript/original.svg"></img>JavaScript</div>
-                    <div class=box-icon> 
-                        <img src="https://devicon-website.vercel.app/api/react/original.svg"></img>React</div>
-                    <div class=box-icon> 
-                        <img src="https://devicon-website.vercel.app/api/nodejs/original.svg"></img>NodeJS</div>
             </div>
+            <div class="container-icons">
+                <div class=box-icon> 
+                    <img src="https://devicon-website.vercel.app/api/python/original.svg"></img>Python</div>
+                <div class=box-icon> 
+                    <img src="https://devicon-website.vercel.app/api/javascript/original.svg"></img>JavaScript</div>
+                <div class=box-icon> 
+                    <img src="https://devicon-website.vercel.app/api/react/original.svg"></img>React</div>
+                <div class=box-icon> 
+                    <img src="https://devicon-website.vercel.app/api/nodejs/original.svg"></img>NodeJS</div>
+             </div>
    </section>
 
    <section id="projects">
@@ -72,19 +74,17 @@
             <heading class="section-heading">Kate Mendoza</heading>
         </banner>
             <h2> Projects </h2>
-            <h3>Personal Portfolio </h3>
-                  <div class="project">
-                    <img src="http://localhost:5500/ISK1001%20assessment/websitelayout.html" alt="Kate Mendoza">
-                  <br>
-                  <de>Introducing myself to the world of web development.</de>
-                  </div>
-                </project>
+            <h3> Kate Mendoza Website </h3>
+                <div class="project">
+                    <img src="https://fastly.picsum.photos/id/201/5000/3333.jpg?hmac=NE8fOMa8u9PBfkq4AVwEoJdRqoPTNwUsyKvKWuXyNCk" width="150px" height="150px" alt="Kate Mendoza">
+                </div>
+                <div class="des"><p>Introducing myself to the world of web development.<p></div>
             <h3> Karl's Sweet Tooth </h3>
-                  <div class="project">
-                    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/579028184872405.655a151bd5c0e.png" alt="Karl's Sweet Tooth" width="500px" height="200px"> 
-                    <br>
-                  <de> My brother's new passion. Savoury pastries for your family baked with love.</de></div>
-                </project>                  
+                <div class="project">
+                    <img src=https://media.istockphoto.com/id/497959594/photo/fresh-cakes.jpg?s=612x612&w=0&k=20&c=T1vp7QPbg6BY3GE-qwg-i_SqVpstyHBMIwnGakdTTek= alt="Karl's Sweet Tooth" width="150px" height="150px"> 
+                </div>
+                <div class="des"><p> My brother's new passion. Savoury pastries for your family baked with love.</p>                
+                </div>
     </section>
         
         <section id="contact">
@@ -97,11 +97,11 @@
 
         <form action="/">
             <label for="Name">Name:</label><br>
-            <div><input type="text" id="name" name="name"></div><br>
+            <div><input type="text" id="name" name="name" size="50"></div><br>
             <label for="Email">Email Address:</label><br>
-            <div><input type="email" id="email" name="email"></div> <br>
+            <div><input type="email" id="email" name="email" placeholder="name@mail.com" size="50"></div> <br>
             <label for="Message">Message:</label><br>
-            <div><textarea rows="5" cols="30" placeholder="Type your message here..."></textarea></div><br>
+            <div><textarea rows="5" cols="44" placeholder="Type your message here..."></textarea></div><br>
             <div><input class="submit" type="submit" value="Submit"></div>
          
          </form>       
