@@ -108,20 +108,30 @@ h2 {
 
 h3  {
   display: block;
-  margin: 3%;
+  margin-left: 3%;
   font-weight: bolder;
 }
 
+project-row {
+  display: flex;
+}
+
 .project {
-  display: inline-block;
+  display: inline;
   margin-left: 10%;
+  width: 50%;
     }
 
 .des {
-    padding-right: 10%;
+    padding-right: 5%;
     float: right;
     margin: 5%;
+    width: 50%;
     }
+
+.project-image {
+  width: 55%;
+}
     
 /*CONTACTS PAGE*/
 .contact {
