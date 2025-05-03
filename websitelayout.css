@@ -72,8 +72,8 @@ section section-text {
 }
 
 .girl {
-  width: 150px;
-  height: 150px; 
+  width: 40%;
+  height: 40%; 
   float: right;
 }
 
@@ -105,8 +105,7 @@ h2 {
     border-style: dotted;
     display: inline-block;
     padding: 5%;
-    height: 100px; 
-    width: 80px;
+    width: 10%;
   }
 }
 
@@ -139,9 +138,8 @@ project-des {
     
 /*CONTACTS PAGE*/
 .contact {
-  display: wrap;
-  width: 200px;
-  height: 150px;
+  width: 25%;
+  height: 20%;
   float: right;
   margin-top: 10vh;
   padding-right: 15%;
@@ -196,10 +194,9 @@ sticky-links a {
   float: left; 
   text-align: center; 
   width: 20%; 
-  padding: 12px 0; 
+  padding: 0.9rem 0; 
   transition: all 0.3s ease; 
   color: rgb(52, 114, 208); 
-  font-size: 12; 
 }
 
 sticky-links a:hover {
@@ -211,7 +208,7 @@ copyright {
   display: inline-block;
   width: 100%;
   text-align: center;
-  padding: 5px;
+  padding: 0.4rem;
   font-size: small;
 }
 
@@ -253,11 +250,6 @@ copyright {
 
   .section-des {
     font-size: 0.9em;
-  }
-
-  .girl {
-    height: 80px;
-    width: 80px;
   }
 
   #skills {
