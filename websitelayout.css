@@ -85,7 +85,7 @@ section banner {
   display: block;
 }
 
-.section-heading {
+section-heading {
   font-size: xxx-large; font-weight: 900;
 }
 
@@ -94,18 +94,20 @@ h2 {
 }
 
 #skills {
-  .container-icons {
+  container-icons {
     border: 1px solid orange;
     padding: 2%;
     text-align: center;
+    display: block;
   }
-   .box-icon { 
-      border-style: dotted;
-      display: inline-block;
-      padding: 5%;
-      height: 100px; 
-      width: 80px;
-    }
+  
+  box-icon { 
+    border-style: dotted;
+    display: inline-block;
+    padding: 5%;
+    height: 100px; 
+    width: 80px;
+  }
 }
 
 /*PROJECTS PAGE*/
@@ -120,16 +122,14 @@ project-row {
   display: flex;
 }
 
-.project {
+project {
   display: inline;
   margin-left: 10%;
   width: 50%;
     }
 
-.des {
-    padding-right: 5%;
-    float: right;
-    margin: 5%;
+project-des {
+    margin-right: 5%;
     width: 50%;
     }
 
@@ -171,10 +171,10 @@ textarea {
   padding: 1%;
   }
 
-.submit { 
-  display:inline-flex;
-  font-weight: 800px; 
+.submit-button { 
   background-color: rgb(138, 223, 249);
+  width: 15%;
+  text-align: center;
 }
 
 .submit:hover { 
@@ -247,7 +247,7 @@ copyright {
     text-align: center;
   }
 
-  .section-heading {
+  section-heading {
     font-size: xx-large;
   }
 
@@ -261,14 +261,14 @@ copyright {
   }
 
   #skills {
-    .box-icon {
+    box-icon {
       width: 10%;
       height: 10%;
       vertical-align: middle;
       margin-top: 20%;
     }
 
-    span {
+    skill {
       display:none
     }
   }
