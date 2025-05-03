@@ -35,6 +35,10 @@ a:hover {
   width: 75%;
 }
 
+.section-des {
+  font-size: larger;
+}
+
 
 /*ABOUT PAGE*/
 
@@ -233,5 +237,23 @@ copyright {
       float:none;
     }
   }
+
+  section {
+    height: 100vh;
+  }
+
+  .section-heading {
+    font-size: xx-large;
+  }
+
+  .section-des {
+    font-size: 0.9em;
+  }
+
+  .girl {
+    height: 80px;
+    width: 80px;
+  }
+  /* END OF 600PX MEDIA */
 }
   
