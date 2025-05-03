@@ -242,6 +242,11 @@ copyright {
     height: 100vh;
   }
 
+  section container {
+    display: inline-block;
+    text-align: center;
+  }
+
   .section-heading {
     font-size: xx-large;
   }
