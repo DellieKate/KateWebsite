@@ -37,6 +37,7 @@ a:hover {
 
 .section-des {
   font-size: larger;
+  margin-top: 15%;
 }
 
 
@@ -137,17 +138,27 @@ project-des {
 }
     
 /*CONTACTS PAGE*/
-.contact {
-  width: 25%;
-  height: 20%;
-  float: right;
-  margin-top: 10vh;
-  padding-right: 15%;
+contact {
+  display:flex;
+}
+data {
+  width:70%;
+}
+photo {
+  width:30%;
+  align-content: center;
+  text-align: center;
+}
+.get-in-touch {
+  border: 1px solid orange;
+  max-width: 80%;
+  max-height: 40%;
 }
 
-form {
+inputform {
+  border: 1px solid red;
   display: grid;
-  padding: 2% 2% 5% 10%;
+  padding: 2% 10% 2% 10%;
 }
 
 label {
@@ -171,7 +182,7 @@ textarea {
 
 .submit-button { 
   background-color: rgb(138, 223, 249);
-  width: 15%;
+  width: 20%;
   text-align: center;
 }
 
@@ -218,12 +229,12 @@ copyright {
 
 
 @media (max-width: 600px) {
-  body { 
-    margin: 0;
-    padding:0; 
+body { 
+  margin: 0;
+  padding:0; 
   } 
 
-  .topnav {
+.topnav {
     width: 100%;
     text-align: center;
     position: fixed;
@@ -235,11 +246,11 @@ copyright {
     }
   }
 
-  section {
+section {
     height: 100vh;
-  }
+}
 
-  section container {
+section container {
     display: inline-block;
     text-align: center;
   }
@@ -264,6 +275,19 @@ copyright {
       display:none
     }
   }
-  /* END OF 600PX MEDIA */
-}
   
+  /* Contact page */
+  inputform {
+      border: 1px solid red;
+      display: grid;
+      padding: 2% 10% 2% 10%;
+  }
+  data {
+    width:100%;
+  }
+  photo {
+    display: none;
+  }
+  /* END OF 600PX MEDIA */
+  
+}
