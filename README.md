@@ -11,7 +11,7 @@ The website is a single-page application that has four distinct components of a 
 2) **header**: To clearly label each sections of the webpage.
 3) **Main or content section**
     - *Home:* Features an image and a brief description
-    - *About:* Provides a short information my background and journey into web development.
+    - *About:* Provides a short information of my background and journey into web development.
     - *Skills:* Shows icons of my technical skills.
     - *Projects:* Shows some of my web development projects.
     - *Contact:* Includes a message area in order to contact me.
