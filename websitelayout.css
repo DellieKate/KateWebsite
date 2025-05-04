@@ -75,8 +75,19 @@ section section-text {
 .girl {
   width: 40%;
   height: 40%; 
-  float: right;
+  position: relative;
+  animation-name: girl;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;  
 }
+
+@keyframes girl {
+  0%   {left:0%; right:100%;}
+  25%  {left:20%; right:80%;}
+  50%  {left:40%; right:60%;}
+  75%  {left:60%; right:40%;}
+}
+
 
 /*SKILLS PAGE*/
 
