@@ -123,15 +123,21 @@ h3  {
   font-weight: bolder;
 }
 
-project-row {
-  display: flex;
+project {
+  border: 1px dotted black;
+  display: block;
+  width: 100%;
 }
 
-project {
-  display: inline;
+project-row {
+  display: inline-flex;
+  width: 100%;
+}
+
+project-items {
   margin-left: 10%;
   width: 50%;
-    }
+  }
 
 project-des {
     margin-right: 5%;
@@ -139,7 +145,7 @@ project-des {
     }
 
 .project-image {
-  width: 55%;
+  width: 15vw;
 }
     
 /*CONTACTS PAGE*/
