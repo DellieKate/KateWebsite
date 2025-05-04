@@ -90,8 +90,14 @@ section-heading {
   font-size: xxx-large; font-weight: 900;
 }
 
-h2 {
-  font-size: xx-large; font-weight: 900;
+subheading {
+  border: 1px solid orange;
+  display: flex;
+  align-items:center;
+  height: 10%;
+  padding-left: 3%;
+  font-size: 2rem; 
+  font-weight: 750;
 }
 
 #skills {
@@ -120,7 +126,7 @@ h2 {
 h3  {
   display: block;
   margin-left: 3%;
-  font-weight: bolder;
+  font-weight: 700;
 }
 
 project {
@@ -173,7 +179,7 @@ inputform {
 }
 
 label {
-  font-weight: bolder;
+  font-weight: 300;
   text-decoration: underline;
 }
 
@@ -263,7 +269,7 @@ body {
       font-size: 0.7em;
       display: inline-block;
       float:none;
-    }
+    } 
   }
 
 section {
@@ -287,6 +293,7 @@ section container {
     display: none;
   }
 
+
   #skills {
     box-icon {
       width: 10%;
@@ -298,10 +305,11 @@ section container {
     img {
       width: 100%;
     }
-    
+
     skill {
       display:none;
     }
+    
   }
   
   /* Contact page */
@@ -315,6 +323,16 @@ section container {
   }
   photo {
     display: none;
+  }
+
+  subheading {
+    border: 1px solid orange;
+    display: flex;
+    align-items:center;
+    height: 10%;
+    padding-left: 3%;
+    font-size: 1.5rem; 
+    font-weight: 500;
   }
 
   footer a {
