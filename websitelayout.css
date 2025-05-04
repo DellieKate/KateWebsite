@@ -295,8 +295,12 @@ section container {
       margin-top: 20%;
     }
 
+    img {
+      width: 100%;
+    }
+    
     skill {
-      display:none
+      display:none;
     }
   }
   
