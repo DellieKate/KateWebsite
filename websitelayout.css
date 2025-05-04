@@ -181,8 +181,18 @@ photo {
   border: 1px solid orange;
   max-width: 80%;
   max-height: 40%;
+  animation-name: mobilehand;
+  animation-duration: 4s;
+  animation-iteration-count: infinite; 
+  }
+  
+  @keyframes mobilehand {
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(45deg);}
+    50% {transform: rotate(0deg);}
+    75% {transform: rotate(-45deg)}
+    100% {transform: rotate(0deg);}
 }
-
 inputform {
   border: 1px solid red;
   display: grid;
