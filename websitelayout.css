@@ -319,6 +319,7 @@ section container {
   section-heading {
     font-size: xx-large;
     display: block;
+    margin-top: 1rem;
   }
 
   .section-des {
