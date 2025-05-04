@@ -283,6 +283,10 @@ section container {
     font-size: 0.9em;
   }
 
+  .girl {
+    display: none;
+  }
+
   #skills {
     box-icon {
       width: 10%;
