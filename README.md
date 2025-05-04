@@ -41,3 +41,5 @@ The 'websitelayout.css' file provides the styling for the website. It includes:
 2) https://developer.mozilla.org/en-US/docs/Web/CSS
 3) https://www.browserstack.com/guide/common-screen-resolutions
 4) https://www.canva.com/colors/color-wheel/
+5) https://icons8.com/icons/
+6) https://devicon-website.vercel.app/
