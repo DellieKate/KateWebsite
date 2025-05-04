@@ -97,9 +97,10 @@ h2 {
 #skills {
   container-icons {
     border: 1px solid orange;
-    padding: 2%;
+    display: inline-block;
     text-align: center;
-    display: block;
+    width: 100%;
+
   }
   
   box-icon { 
@@ -107,6 +108,10 @@ h2 {
     display: inline-block;
     padding: 5%;
     width: 10%;
+  }
+
+  img {
+    width: 50%;
   }
 }
 
