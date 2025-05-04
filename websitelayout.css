@@ -145,6 +145,7 @@ h3  {
   display: block;
   margin-left: 3%;
   font-weight: 700;
+  font-size: 1.3rem;
 }
 
 project {
@@ -166,6 +167,7 @@ project-items {
 project-des {
     margin-right: 5%;
     width: 50%;
+    font-size: 1.1rem;
     }
 
 .project-image {
@@ -344,7 +346,13 @@ section container {
     }
     
   }
-  
+  h3 { 
+    font-size: 1.1rem;
+  } 
+
+  project-des { 
+    font-size: 0.9rem;
+  }
   /* Contact page */
   inputform {
       /* border: 1px solid red; */
